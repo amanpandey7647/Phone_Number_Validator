@@ -33,8 +33,12 @@ python3 main.py
 ```
 
 ### Auto Mode
+``
 Run instal.sh shell file
+``
+``
 Run start.sh shell file after install.sh shell file
+``
 
 ## Windows
 ```
