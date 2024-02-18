@@ -3,7 +3,8 @@
 
 
 # Installation :
-## Linux
+## Linux 
+### Manually
 
 ```
 sudo apt-get update -y
@@ -30,6 +31,10 @@ wget https://raw.githubusercontent.com/amanpandey7647/Phone_Number_Validator/mai
 ```
 python3 main.py
 ```
+
+### Auto Mode
+Run instal.sh shell file
+Run start.sh shell file after install.sh shell file
 
 ## Windows
 ```
