@@ -19,7 +19,10 @@ try:
             location = geocoder.description_for_number(parsed_number, "en")
             carrier_name = carrier.name_for_number(parsed_number, "en")
             time_zone = timezone.time_zones_for_number(parsed_number)
-            print("Location: {}, Carrier: {}, Timezone: {}".format(location, carrier_name, time_zone[0]))
+            valid = phonenumbers.is_valid_number(parsed_number) 
+            possible = phonenumbers.is_possible_number(parsed_number) 
+            Region = geocoder.description_for_number(parsed_number, 'en') 
+            print("Location: {}, Carrier: {}, Timezone: {}, valid: {}, possible: {}, Region: {}".format(location, carrier_name, time_zone[0], valid, possible, Region))
         else:
             print("Provided number is not a valid number")
     else:
