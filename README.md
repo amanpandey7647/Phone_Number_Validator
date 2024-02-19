@@ -14,10 +14,22 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 ```
 ```
-apt install wget -y
+sudo apt install wget -y
 ```
 ```
-apt install python -y
+sudo apt install python -y
+```
+```
+sudo apt install python-is-python3 -y
+```
+```
+sudo apt install python3-venv
+```
+```
+python3 -m venv env
+```
+```
+source env/bin/activate
 ```
 ```
 pip install requests
