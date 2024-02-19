@@ -8,6 +8,7 @@ except:
 try:
     import os
     os.system("cls")
+    os.system("clear")
 except:
     import os
     os.system("clear")
