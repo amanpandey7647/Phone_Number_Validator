@@ -5,13 +5,19 @@ except:
     os.system("pip3 install phonenumbers")
     import phonenumbers
 
-try:
-    import os
-    os.system("cls")
-    os.system("clear")
-except:
-    import os
-    os.system("clear")
+import os
+
+# This function clears the screen
+def clear_screen():
+  # for windows
+  if os.name == 'nt':
+    _ = os.system('cls')
+  # for mac and linux(here, os.name is 'posix')
+  else:
+    _ = os.system('clear')
+
+
+clear_screen()
     
 import phonenumbers
 from phonenumbers import geocoder, carrier, timezone
