@@ -5,6 +5,12 @@ except:
     os.system("pip3 install phonenumbers")
     import phonenumbers
 
+try:
+    import os
+    os.system("cls")
+except:
+    os.system("clear")
+    
 import phonenumbers
 from phonenumbers import geocoder, carrier, timezone
 
