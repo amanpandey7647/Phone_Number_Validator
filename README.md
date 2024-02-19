@@ -46,24 +46,24 @@ python3 main.py
 
 ### Auto Mode
 ```
-git clone amanpandey7647/Phone_Number_Validator.git
+git clone https://github.com/amanpandey7647/Phone_Number_Validator.git
 ```
 ```
 cd Phone_Number_Validator
 ```
 ```
-Bash instal.sh
+bash instal.sh
 ```
-``
-Bash start.sh
-``
+```
+bash start.sh
+```
 
 ## Windows
 ```
-Download the repository
+git clone https://github.com/amanpandey7647/Phone_Number_Validator.git
 ```
 ```
-Go to Folder & Open CMD
+cd Phone_Number_Validator
 ```
 ```
 python3 main.py
