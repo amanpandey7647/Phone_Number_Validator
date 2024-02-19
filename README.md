@@ -55,7 +55,7 @@ cd Phone_Number_Validator
 bash install.sh
 ```
 ```
-bash start.sh
+bash run.sh
 ```
 
 ## Windows
