@@ -45,11 +45,17 @@ python3 main.py
 ```
 
 ### Auto Mode
+```
+git clone amanpandey7647/Phone_Number_Validator.git
+```
+```
+cd Phone_Number_Validator
+```
+```
+Bash instal.sh
+```
 ``
-Run instal.sh shell file
-``
-``
-Run start.sh shell file after install.sh shell file
+Bash start.sh
 ``
 
 ## Windows
