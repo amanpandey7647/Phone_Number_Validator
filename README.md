@@ -52,7 +52,7 @@ git clone https://github.com/amanpandey7647/Phone_Number_Validator.git
 cd Phone_Number_Validator
 ```
 ```
-bash instal.sh
+bash install.sh
 ```
 ```
 bash start.sh
