@@ -9,6 +9,7 @@ try:
     import os
     os.system("cls")
 except:
+    import os
     os.system("clear")
     
 import phonenumbers
