@@ -3,7 +3,7 @@
 
 
 # Installation :
-## Linux 
+## Linux & Mac
 ### Manually
 
 ```
@@ -21,6 +21,9 @@ sudo apt install python -y
 ```
 ```
 sudo apt install python-is-python3 -y
+```
+```
+sudo apt install git
 ```
 ```
 sudo apt install python3-venv
