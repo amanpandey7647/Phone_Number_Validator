@@ -49,6 +49,9 @@ python3 main.py
 
 ### Auto Mode
 ```
+sudo apt install git
+```
+```
 git clone https://github.com/amanpandey7647/Phone_Number_Validator.git
 ```
 ```
