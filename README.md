@@ -23,10 +23,13 @@ sudo apt install python -y
 sudo apt install python-is-python3 -y
 ```
 ```
-sudo apt install git
+sudo apt install git -y
 ```
 ```
-sudo apt install python3-venv
+sudo apt install python3-venv -y
+```
+```
+sudo apt install python3-pip -y
 ```
 ```
 python3 -m venv env
@@ -35,10 +38,10 @@ python3 -m venv env
 source env/bin/activate
 ```
 ```
-pip install requests
+pip3 install requests
 ```
 ```
-pip install pyfiglet
+pip3 install pyfiglet
 ```
 ```
 wget https://raw.githubusercontent.com/amanpandey7647/Phone_Number_Validator/main/main.py
